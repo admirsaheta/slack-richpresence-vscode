@@ -1,5 +1,20 @@
-out
-dist
-node_modules
+# Node modules
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Rust specific files
+slack_status_updater/pkg/
+slack_status_updater/target/
+slack_status_updater/Cargo.lock
+
+# VSCode test runner
 .vscode-test/
+
+# VSCode extension package
 *.vsix
+
+# Miscellaneous
+.DS_Store
+*.log
